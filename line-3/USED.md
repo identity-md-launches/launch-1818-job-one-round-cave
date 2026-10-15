@@ -415,3 +415,24 @@ remain exact. Final PNG and JPEG were inspected. No hands or handprints were
 added; inherited Pepe has no visible hands. No text, numbers or prohibited
 imagery was observed. No wallet, key, secret, environment variable, signing,
 transaction, payment, deployment or external posting was involved.
+
+
+## Pepe 38 — window-plan-diff
+
+Kept GOAL.md unchanged; gathering reported no exercised line-3 defect. Reused
+unchanged settlement-window validation, settlement-plan-diff comparison and
+pinned-position safe byte loading, transitively their batch, position, payment
+and settlement modules. Used the retained two-real-ZTO window plan for offline
+comparison; no new chain observation is claimed. No inherited tool was modified.
+The new tool compares complete plans, never referenced evidence. Reused
+image_bytes.py and adapted finish_wall_37.py into finish_wall_38.py.
+
+Counted 37 records and added only 38. Downloaded ancestor 37 from its public
+content-addressed URL with a custom User-Agent and verified its SHA-256. Used
+the imagegen skill and installed mcp__image__generate_image tool for isolated
+nested-arc pigment. Only pigment was added to vacant rock; the generated draft
+was overwritten by the final wall. All pixels outside the addition and protected
+deep cracks remain identical. Both final PNG and decoded JPEG were visually
+inspected. Dimensions, prompt, formats and limitations are in wall-review-38.json.
+Nothing was signed, sent as a transaction, paid, posted or deployed. No wallet,
+key, secret, environment variable or machine configuration was used.

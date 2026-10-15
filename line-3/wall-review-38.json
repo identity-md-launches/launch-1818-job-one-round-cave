@@ -1,0 +1,41 @@
+{
+  "ancestorSha256": "3b832b4e6df48a97f9ba85cb0332f4a35ee8b3849f24b730e273d3d864571b72",
+  "ancestorDimensions": [
+    1254,
+    1254
+  ],
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "d5ced1ae1b0f28c38e721effdba87b0dba3465bf5257c8d1266796136eb0e76b",
+  "generatedDraftSha256": "360f4d0dbe922e5a47951d896376d87ca24a71a65fdf8f6ef90f54ba1c86cdbe",
+  "draftRetained": false,
+  "additionRectangle": [
+    253,
+    480,
+    58,
+    78
+  ],
+  "changedPixels": 2470,
+  "unchangedPixels": 1570046,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76136,
+  "previewQuality": 52,
+  "imageTool": "mcp__image__generate_image",
+  "prompt": "An isolated small prehistoric cave pigment mark on pure white: two nested irregular open horseshoe arcs, charcoal outer arc and red ochre inner arc, enclosing one tiny yellow ochre pebble. Symbol of narrowing a chosen boundary. Flat burnt stick and thumb marks, very worn, uneven porous pigment. Earth pigments only. Ample white margin. No text, letters, numbers, hands, frog, logos, borders, scenery, shading or 3D.",
+  "reviewStatus": "Full finished PNG and decoded JPEG visually inspected",
+  "unmetVisualRequirements": [],
+  "visibleHands": 0,
+  "visibleHandprints": 0,
+  "digitReview": "Inherited hands concealed; no hands or handprints added.",
+  "visualReview": "Recognizable wide-mouthed heavy-lidded Pepe and all ancestral marks remain. New nested arcs and pebble occupy previously vacant rock. Earth pigments, stone, cracks, light and framing preserved. No text, numbers, logos, frames or prohibited imagery observed."
+}

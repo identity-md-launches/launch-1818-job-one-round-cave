@@ -1,0 +1,47 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-3/tools/window-plan-diff",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "test_added_transaction_requires_review (test_window_diff.ReviewTests.test_added_transaction_requires_review) ... ok\ntest_all_windows_validate_before_comparison (test_window_diff.ReviewTests.test_all_windows_validate_before_comparison) ... ok\ntest_cli_and_path_refusals (test_window_diff.ReviewTests.test_cli_and_path_refusals) ... ok\ntest_cli_widening_exits_one_and_reports_both_hashes (test_window_diff.ReviewTests.test_cli_widening_exits_one_and_reports_both_hashes) ... ok\ntest_each_widened_edge_rejects (test_window_diff.ReviewTests.test_each_widened_edge_rejects) ... ok\ntest_inputs_not_mutated_and_changes_after_first_failure (test_window_diff.ReviewTests.test_inputs_not_mutated_and_changes_after_first_failure) ... ok\ntest_narrower_edge_cannot_offset_wider_edge (test_window_diff.ReviewTests.test_narrower_edge_cannot_offset_wider_edge) ... ok\ntest_narrowing_and_reordering_and_case_alias (test_window_diff.ReviewTests.test_narrowing_and_reordering_and_case_alias) ... ok\ntest_pin_mismatch_precedes_parsing (test_window_diff.ReviewTests.test_pin_mismatch_precedes_parsing) ... ok\ntest_policy_weakening_reference_and_transaction_changes (test_window_diff.ReviewTests.test_policy_weakening_reference_and_transaction_changes) ... ok\ntest_strict_full_validation (test_window_diff.ReviewTests.test_strict_full_validation) ... ok\ntest_stronger_policy_and_single_block_window (test_window_diff.ReviewTests.test_stronger_policy_and_single_block_window) ... ok\ntest_unchanged_real_plan_and_no_evidence_reads (test_window_diff.ReviewTests.test_unchanged_real_plan_and_no_evidence_reads) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.019s\n\nOK\n"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-3/tools/settlement-plan-diff",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "test_added (test_plan_diff.PlanTests.test_added) ... ok\ntest_ambiguous_json_both_sides (test_plan_diff.PlanTests.test_ambiguous_json_both_sides) ... ok\ntest_bad_policy_types (test_plan_diff.PlanTests.test_bad_policy_types) ... ok\ntest_baseline_pin_before_parse (test_plan_diff.PlanTests.test_baseline_pin_before_parse) ... ok\ntest_byte_bound (test_plan_diff.PlanTests.test_byte_bound) ... ok\ntest_case_alias_same_transaction (test_plan_diff.PlanTests.test_case_alias_same_transaction) ... ok\ntest_cli_decline_and_safe_paths (test_plan_diff.PlanTests.test_cli_decline_and_safe_paths) ... ok\ntest_cli_demo_and_overrides (test_plan_diff.PlanTests.test_cli_demo_and_overrides) ... ok\ntest_drop_finality_even_with_more_confirmations (test_plan_diff.PlanTests.test_drop_finality_even_with_more_confirmations) ... ok\ntest_duplicate_alias_rejects (test_plan_diff.PlanTests.test_duplicate_alias_rejects) ... ok\ntest_higher_confirmations (test_plan_diff.PlanTests.test_higher_confirmations) ... ok\ntest_invalid_pin (test_plan_diff.PlanTests.test_invalid_pin) ... ok\ntest_lower_confirmations (test_plan_diff.PlanTests.test_lower_confirmations) ... ok\ntest_no_evidence_or_network_calls_no_mutation (test_plan_diff.PlanTests.test_no_evidence_or_network_calls_no_mutation) ... ok\ntest_pin_change_and_path_change (test_plan_diff.PlanTests.test_pin_change_and_path_change) ... ok\ntest_real_plan (test_plan_diff.PlanTests.test_real_plan) ... ok\ntest_removed (test_plan_diff.PlanTests.test_removed) ... ok\ntest_reorder_not_weakening (test_plan_diff.PlanTests.test_reorder_not_weakening) ... ok\ntest_require_finality (test_plan_diff.PlanTests.test_require_finality) ... ok\ntest_unknown_fields (test_plan_diff.PlanTests.test_unknown_fields) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.020s\n\nOK\n"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "line-3/tools/window-plan-diff/window_diff.py",
+      "--demo"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"planCompatible\": true,\n  \"state\": \"plan_unchanged_or_stricter\",\n  \"baselineSha256\": \"ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db\",\n  \"expectedBaselineSha256\": \"ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db\",\n  \"proposedSha256\": \"ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db\",\n  \"evidenceChecked\": false,\n  \"limitations\": \"Plan comparison only; no evidence is opened and no settlement is asserted. A narrower window can still exclude the actual inclusion. Replay the proposed plan with settlement-window after review. Retain the baseline hash independently; replacing both defeats this check. No payment authorization or current freshness.\",\n  \"batchComparison\": {\n    \"planCompatible\": true,\n    \"state\": \"plan_unchanged_or_stricter\",\n    \"baselineSha256\": \"c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806\",\n    \"expectedBaselineSha256\": \"c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806\",\n    \"proposedSha256\": \"c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806\",\n    \"evidenceChecked\": false,\n    \"limitations\": \"Plan comparison only; evidence is not opened or replayed. A pass is not transaction settlement, payment approval or authorization. Retain the baseline hash independently. Replacing baseline and hash defeats this check. A stricter policy may require newly captured evidence before batch replay.\",\n    \"baselineCount\": 2,\n    \"proposedCount\": 2,\n    \"changes\": [],\n    \"orderChanged\": false\n  },\n  \"windowChanges\": [],\n  \"windowOrderChanged\": false,\n  \"demoNote\": \"Unchanged window plan for two historical real ZTO transactions.\"\n}\n",
+    "stderr": ""
+  }
+]

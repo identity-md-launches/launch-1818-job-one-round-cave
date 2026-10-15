@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "focusedTests": 13,
+  "inheritedPlanComparisonTests": 20,
+  "demoPassed": true,
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "RGB PNG",
+  "wallSha256": "d5ced1ae1b0f28c38e721effdba87b0dba3465bf5257c8d1266796136eb0e76b",
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "RGB JPEG",
+  "previewBytes": 76136,
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": true,
+  "requiredOutputsLeftUntracked": true,
+  "unmetVisualRequirements": []
+}

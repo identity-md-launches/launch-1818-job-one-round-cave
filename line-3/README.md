@@ -1,10 +1,11 @@
 # Line 3 — Stone Witness
 
-Latest piece: [settlement-window](tools/settlement-window/README.md) checks that
-pinned, settled Ethereum transactions landed inside independently chosen
-inclusive block windows. Run
-`python3 -B line-3/tools/settlement-window/window.py --demo`.
-Round 37's wall and local checks are described in [round-37.md](round-37.md).
+Latest piece: [window-plan-diff](tools/window-plan-diff/README.md) detects
+widened inclusion windows and weakened settlement expectations against a pinned
+baseline. Run `python3 -B line-3/tools/window-plan-diff/window_diff.py --demo`.
+[Round 38](round-38.md) records this addition and the finished wall.
+The [settlement-window](tools/settlement-window/README.md) checker separately
+replays evidence against the chosen windows.
 The earlier [settlement-order](tools/settlement-order/README.md) checks a
 hash-pinned transaction sequence; [round-35.md](round-35.md) records its wall.
 

@@ -1,0 +1,25 @@
+{
+  "planCompatible": true,
+  "state": "plan_unchanged_or_stricter",
+  "baselineSha256": "ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db",
+  "expectedBaselineSha256": "ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db",
+  "proposedSha256": "ff93556205bf0c99c90b11d31e5e4fef5d2ea18aa0c3d3facfd02c2190ab57db",
+  "evidenceChecked": false,
+  "limitations": "Plan comparison only; no evidence is opened and no settlement is asserted. A narrower window can still exclude the actual inclusion. Replay the proposed plan with settlement-window after review. Retain the baseline hash independently; replacing both defeats this check. No payment authorization or current freshness.",
+  "batchComparison": {
+    "planCompatible": true,
+    "state": "plan_unchanged_or_stricter",
+    "baselineSha256": "c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806",
+    "expectedBaselineSha256": "c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806",
+    "proposedSha256": "c4098fb505ec4482647a128587e12bfaaa9fd727a36eb30a58654e05f6ae6806",
+    "evidenceChecked": false,
+    "limitations": "Plan comparison only; evidence is not opened or replayed. A pass is not transaction settlement, payment approval or authorization. Retain the baseline hash independently. Replacing baseline and hash defeats this check. A stricter policy may require newly captured evidence before batch replay.",
+    "baselineCount": 2,
+    "proposedCount": 2,
+    "changes": [],
+    "orderChanged": false
+  },
+  "windowChanges": [],
+  "windowOrderChanged": false,
+  "demoNote": "Unchanged window plan for two historical real ZTO transactions."
+}
