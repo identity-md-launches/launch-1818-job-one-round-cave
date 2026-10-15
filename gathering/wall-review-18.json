@@ -1,0 +1,44 @@
+{
+  "ancestorSha256": "8d78b79be22f1b0544c4d2260fd852a777f228fd1df73702ec104e8d0493eb8d",
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "ad99d3d7d67ce1b56021059b771e155abf159a95ca51e0f6d8f90f1a9a7cc47a",
+  "generatedDraftSha256": "93d60eb5125e563c3893289910b6512affac73dce39d7ae73830a563ea308375",
+  "generatedDraftRetained": false,
+  "sourceRectangle": [
+    204,
+    230,
+    805,
+    838
+  ],
+  "additionRectangle": [
+    363,
+    548,
+    66,
+    67
+  ],
+  "changedPixels": 1920,
+  "unchangedPixels": 1570596,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76398,
+  "imageTool": "mcp__image__generate_image",
+  "prompt": "A sparse prehistoric cave-painting pigment design on pure white. A low rough charcoal arch made from two upright irregular stones and a curved burnt-stick top, framing one small red ochre pebble. A narrow yellow ochre arch hugs the inside: a gate tightened around the same stone. Flat primitive uneven thumb-rubbed ochre and worn charcoal. No hands, writing, numbers, logos, signatures, watermarks, borders, modern symbols or frames.",
+  "newHands": 0,
+  "newHandprints": 0,
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [],
+  "method": "Generated pigment flattened into earth colors and transferred onto vacant ancestral stone.",
+  "visibleHands": 0,
+  "visibleHandprints": 0,
+  "visualNotes": "Recognizable wide-mouthed heavy-lidded Pepe and all inherited marks remain. Small flat charcoal and ochre gate on unused rock. No visible hands, handprints, text, numbers, logos, frames or prohibited symbols. Inherited photographic-looking rock retained to preserve ancestor."
+}

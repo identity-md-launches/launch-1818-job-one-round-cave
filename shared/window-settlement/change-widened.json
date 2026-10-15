@@ -1,0 +1,54 @@
+{
+  "accepted": false,
+  "state": "plan_review_required",
+  "baselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+  "proposedSha256": "568bfa9bd4b9ebd6eb409e758d35129761f61867f13d8178a31a8eee92ae3c58",
+  "expectedBaselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+  "expectedProposedSha256": "568bfa9bd4b9ebd6eb409e758d35129761f61867f13d8178a31a8eee92ae3c58",
+  "evidenceChecked": false,
+  "windowChecked": false,
+  "limitations": "Historical provider observations, not current chain truth or a state proof. A non-weakened plan is not settlement; both gates must pass. Keep baseline and proposed hashes independently. Replacing bytes and pins together defeats retention. No payment amount, authorization, signing or deployment.",
+  "structure": {
+    "baseline": {
+      "valid": true,
+      "diagnostics": []
+    },
+    "proposed": {
+      "valid": true,
+      "diagnostics": []
+    }
+  },
+  "planComparison": {
+    "planCompatible": false,
+    "state": "plan_review_required",
+    "baselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+    "expectedBaselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+    "proposedSha256": "568bfa9bd4b9ebd6eb409e758d35129761f61867f13d8178a31a8eee92ae3c58",
+    "evidenceChecked": false,
+    "limitations": "Plan comparison only; no evidence is opened and no settlement is asserted. A narrower window can still exclude the actual inclusion. Replay the proposed plan with settlement-window after review. Retain the baseline hash independently; replacing both defeats this check. No payment authorization or current freshness.",
+    "batchComparison": {
+      "planCompatible": true,
+      "state": "plan_unchanged_or_stricter",
+      "baselineSha256": "edbfdd31f151e94093740c8ac8331b7cb70a3bf08ee1d1e7b8ca4666dbdf54ce",
+      "expectedBaselineSha256": "edbfdd31f151e94093740c8ac8331b7cb70a3bf08ee1d1e7b8ca4666dbdf54ce",
+      "proposedSha256": "edbfdd31f151e94093740c8ac8331b7cb70a3bf08ee1d1e7b8ca4666dbdf54ce",
+      "evidenceChecked": false,
+      "limitations": "Plan comparison only; evidence is not opened or replayed. A pass is not transaction settlement, payment approval or authorization. Retain the baseline hash independently. Replacing baseline and hash defeats this check. A stricter policy may require newly captured evidence before batch replay.",
+      "baselineCount": 2,
+      "proposedCount": 2,
+      "changes": [],
+      "orderChanged": false
+    },
+    "windowChanges": [
+      {
+        "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+        "field": "notAfterBlock",
+        "before": 26194720,
+        "after": 26194721,
+        "kind": "window_widened",
+        "blocking": true
+      }
+    ],
+    "windowOrderChanged": false
+  }
+}

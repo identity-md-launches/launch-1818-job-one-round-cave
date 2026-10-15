@@ -1,0 +1,27 @@
+{
+  "accepted": false,
+  "state": "structural_review_required",
+  "baselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+  "proposedSha256": "f61fcf32a07a00eadca6c8a71d6e51342b20fc7ae5d04ddf8876a309d533eec2",
+  "expectedBaselineSha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+  "expectedProposedSha256": "f61fcf32a07a00eadca6c8a71d6e51342b20fc7ae5d04ddf8876a309d533eec2",
+  "evidenceChecked": false,
+  "windowChecked": false,
+  "limitations": "Historical provider observations, not current chain truth or a state proof. A non-weakened plan is not settlement; both gates must pass. Keep baseline and proposed hashes independently. Replacing bytes and pins together defeats retention. No payment amount, authorization, signing or deployment.",
+  "structure": {
+    "baseline": {
+      "valid": true,
+      "diagnostics": []
+    },
+    "proposed": {
+      "valid": false,
+      "diagnostics": [
+        {
+          "path": "/windows/1/notBeforeBlock",
+          "rule": "type",
+          "message": "expected integer"
+        }
+      ]
+    }
+  }
+}

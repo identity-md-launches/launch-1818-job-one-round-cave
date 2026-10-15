@@ -105,3 +105,10 @@ Line 2's structural diagnostics join Line 3's inclusive block-window replay.
 Every pinned transaction must settle and fit its chosen range before acceptance.
 The complete folder works detached, with retained real ZTO evidence, unchanged
 vendor sources, 14 tests and explicit out-of-window/structural rejection demos.
+
+Gathering 18 adds [retained window plan and settlement review](window-settlement/CHANGES.md).
+Line 3's window change detector joins Line 2's structural diagnostics and full
+historical replay: a proposal must preserve or strengthen expectations and
+still contain each actual inclusion. Includes two unchanged vendor sources,
+16 integration tests, CLI refusals and a detached offline trial with real ZTO
+evidence. The baseline and proposed pins are never automatically promoted.

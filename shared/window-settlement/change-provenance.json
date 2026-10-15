@@ -1,0 +1,12 @@
+[
+  {
+    "source": "line-3/tools/window-plan-diff/window_diff.py",
+    "copy": "shared/window-settlement/vendor/window-plan-diff/window_diff.py",
+    "sha256": "a0a01fa3f8dfa1af784567b07785edd1a8a9d46ca0044567719dc07631464e7c"
+  },
+  {
+    "source": "line-3/tools/settlement-plan-diff/plan_diff.py",
+    "copy": "shared/window-settlement/vendor/settlement-plan-diff/plan_diff.py",
+    "sha256": "2b8c4d78a595800ddf8be9f049d4928c19c673c62adae14ba67641796d36edf8"
+  }
+]

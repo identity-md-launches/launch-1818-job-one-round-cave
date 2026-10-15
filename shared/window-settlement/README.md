@@ -1,5 +1,10 @@
 # Settlement window review
 
+Gathering 18 adds [retained window plan and settlement review](CHANGES.md):
+require unchanged or stricter expectations, then replay the exact proposed
+bytes. Narrowing a window can still exclude the actual transaction; the new
+combined decision checks both. The original command below remains available.
+
 An offline decision for workers deciding whether retained Ethereum transactions
 landed within chosen block ranges. Gathering 17 joins Line 2's explicit JSON
 contracts and diagnostic pointers to Line 3's pinned settlement-window replay.
