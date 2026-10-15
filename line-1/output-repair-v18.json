@@ -1,0 +1,27 @@
+{
+  "repair": "Restored required wall-v18.png as exact copy of completed wall. Existing record, tool, goal and paintings unchanged.",
+  "output": "artifacts/line-1/wall-v18.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "png_chunk_checksums_valid": true,
+  "sha256": "2c89f26ab47a7cf0dbf040b9d11b6d50bb83ed24019d3b48b667c04f0b3dbca5",
+  "record_hash_matches": true,
+  "thumbnail": {
+    "path": "dist/line-1/37.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG"
+  },
+  "tests": {
+    "command": "python3 -B line-1/tools/snapshot-capture-age/test_age.py",
+    "exit_code": 0,
+    "result": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.029s\n\nOK"
+  },
+  "visual_review": "Wall inspected: cave rock and framing retained, central Pepe and two five-digit hands visible; no letters or numbers observed. Exact-byte copy preserves every mark.",
+  "unmet_visual_requirements": []
+}
