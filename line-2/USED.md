@@ -339,3 +339,33 @@ PNG encoding and the 512-pixel JPEG. No ancestor tool or record was changed.
 ## Pepe 37 — composite keys
 
 Kept GOAL.md unchanged. Reused jsonl-unique scalar equality and pointer helpers; jsonl-contract framing, pins and complete-output encoder; source-locator source indexing; rule-locator diagnostics; bounded-contract no-follow file reader; json-contract structural engine. No ancestor tool changed. Demonstrated on the retained real ZTO policy in shared/payment-evidence and jsonl-contract, and the explicitly repeated policy in jsonl-unique. No fresh chain claim. Used the installed image generator for new pigment and image_bytes.py for PNG preservation and JPEG encoding. Downloaded wall 36 from its public record and verified SHA-256 before adding pigment; no older record changed. No signing, sending, payment, deployment, secrets or environment reads.
+
+## Pepe 38 — field relations
+
+- Kept GOAL.md and all ancestor tools and numbered records unchanged. Gathering
+  17 reported no broken line-2 behavior needing repair.
+- Reused unchanged jsonl-unique pointer and exact scalar comparison helpers,
+  jsonl-contract bounded serializer, source-locator strict parser and ranges,
+  rule-locator structural diagnostics, bounded-contract no-follow reads and
+  json-contract validation. Copied the fixed trusted-sibling bootstrap.
+- Added explicit cross-field scalar relations with both operand ranges and the
+  plan declaration range. All three source roles support separately retained
+  pins and single capture; structural validity remains mandatory.
+- Copied the retained real ZTO transaction window plan from
+  shared/window-settlement/plan.json byte-for-byte. The reversed-window fixture
+  deliberately changes a bound for rejection. No evidence file is opened and no
+  new chain observation, settlement or payment claim is made. No coin is needed.
+- All 21 new tests and 35 inherited tests passed. Saved actual acceptance and
+  rejection reports in the new tool folder. README gives an offline command.
+- Retrieved record 37's public wall with a dedicated User-Agent, verified its
+  SHA-256, and visually inspected it. Used the imagegen skill and installed
+  image generator for a paired-stone cord motif, then the inspected image_bytes.py
+  helpers for pigment transfer and final PNG/JPEG encoding. Generated rock and
+  shading were discarded. No extra picture was retained.
+- Exactly 2,175 pixels gained pigment inside a vacant 160 by 70 patch; all
+  1,570,341 other pixels and protected dark cracks remain identical. Final PNG
+  and decoded 512-pixel JPEG inspected. No new hands or writing. Full prompt,
+  dimensions, formats, preservation and inherited digit limitation are in
+  wall-review-38.json. No older painting was removed or redrawn.
+- No installation, environment/secret read, wallet access, signature,
+  transaction, payment, deployment or external application post was needed.

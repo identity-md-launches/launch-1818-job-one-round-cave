@@ -1,0 +1,539 @@
+{
+  "valid": true,
+  "complete": true,
+  "status": "valid",
+  "sources": {
+    "contract": {
+      "file": "line-2/tools/field-relations/window.contract.json",
+      "bytes": 2437,
+      "sha256": "2ddbecc46bd9bab7c81b40b97765cea4a05752e00afd751213ca54f38e114054"
+    },
+    "document": {
+      "file": "line-2/tools/field-relations/window-plan.json",
+      "bytes": 1180,
+      "sha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5"
+    },
+    "plan": {
+      "file": "line-2/tools/field-relations/window.relations.json",
+      "bytes": 635,
+      "sha256": "1f5be0e80104b7ea1d330569d4e9ddd0900ebfa86573c1ade0748af22f5f0684"
+    }
+  },
+  "structural": {
+    "valid": true,
+    "error_count": 0,
+    "errors": [],
+    "sources": {
+      "contract": {
+        "file": "line-2/tools/field-relations/window.contract.json",
+        "bytes": 2437,
+        "sha256": "2ddbecc46bd9bab7c81b40b97765cea4a05752e00afd751213ca54f38e114054"
+      },
+      "document": {
+        "file": "line-2/tools/field-relations/window-plan.json",
+        "bytes": 1180,
+        "sha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5"
+      }
+    },
+    "coordinates": {
+      "lines": "one-based; LF begins each new line",
+      "columns": "one-based Unicode code points, not display cells or UTF-16 units",
+      "offsets": "zero-based; ranges include start and exclude end",
+      "encoding": "UTF-8; source bytes and CRLF are preserved"
+    }
+  },
+  "relations": [
+    {
+      "index": 0,
+      "operator": "le",
+      "left": {
+        "pointer": "/windows/0/notBeforeBlock",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "char_offset": 952,
+              "byte_offset": 952
+            },
+            "end": {
+              "line": 29,
+              "column": 33,
+              "char_offset": 960,
+              "byte_offset": 960
+            }
+          },
+          "key": {
+            "start": {
+              "line": 29,
+              "column": 7,
+              "char_offset": 934,
+              "byte_offset": 934
+            },
+            "end": {
+              "line": 29,
+              "column": 23,
+              "char_offset": 950,
+              "byte_offset": 950
+            }
+          }
+        },
+        "type": "number"
+      },
+      "right": {
+        "pointer": "/windows/0/notAfterBlock",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 30,
+              "column": 24,
+              "char_offset": 985,
+              "byte_offset": 985
+            },
+            "end": {
+              "line": 30,
+              "column": 32,
+              "char_offset": 993,
+              "byte_offset": 993
+            }
+          },
+          "key": {
+            "start": {
+              "line": 30,
+              "column": 7,
+              "char_offset": 968,
+              "byte_offset": 968
+            },
+            "end": {
+              "line": 30,
+              "column": 22,
+              "char_offset": 983,
+              "byte_offset": 983
+            }
+          }
+        },
+        "type": "number"
+      },
+      "plan_source": {
+        "file": "line-2/tools/field-relations/window.relations.json",
+        "present": true,
+        "value": {
+          "start": {
+            "line": 3,
+            "column": 5,
+            "char_offset": 23,
+            "byte_offset": 23
+          },
+          "end": {
+            "line": 7,
+            "column": 6,
+            "char_offset": 133,
+            "byte_offset": 133
+          }
+        }
+      },
+      "valid": true,
+      "status": "passed"
+    },
+    {
+      "index": 1,
+      "operator": "eq",
+      "left": {
+        "pointer": "/windows/0/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 28,
+              "column": 26,
+              "char_offset": 858,
+              "byte_offset": 858
+            },
+            "end": {
+              "line": 28,
+              "column": 94,
+              "char_offset": 926,
+              "byte_offset": 926
+            }
+          },
+          "key": {
+            "start": {
+              "line": 28,
+              "column": 7,
+              "char_offset": 839,
+              "byte_offset": 839
+            },
+            "end": {
+              "line": 28,
+              "column": 24,
+              "char_offset": 856,
+              "byte_offset": 856
+            }
+          }
+        },
+        "type": "string"
+      },
+      "right": {
+        "pointer": "/batch/items/0/policy/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 10,
+              "column": 30,
+              "char_offset": 271,
+              "byte_offset": 271
+            },
+            "end": {
+              "line": 10,
+              "column": 98,
+              "char_offset": 339,
+              "byte_offset": 339
+            }
+          },
+          "key": {
+            "start": {
+              "line": 10,
+              "column": 11,
+              "char_offset": 252,
+              "byte_offset": 252
+            },
+            "end": {
+              "line": 10,
+              "column": 28,
+              "char_offset": 269,
+              "byte_offset": 269
+            }
+          }
+        },
+        "type": "string"
+      },
+      "plan_source": {
+        "file": "line-2/tools/field-relations/window.relations.json",
+        "present": true,
+        "value": {
+          "start": {
+            "line": 8,
+            "column": 5,
+            "char_offset": 139,
+            "byte_offset": 139
+          },
+          "end": {
+            "line": 12,
+            "column": 6,
+            "char_offset": 263,
+            "byte_offset": 263
+          }
+        }
+      },
+      "valid": true,
+      "status": "passed"
+    },
+    {
+      "index": 2,
+      "operator": "le",
+      "left": {
+        "pointer": "/windows/1/notBeforeBlock",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 34,
+              "column": 25,
+              "char_offset": 1126,
+              "byte_offset": 1126
+            },
+            "end": {
+              "line": 34,
+              "column": 33,
+              "char_offset": 1134,
+              "byte_offset": 1134
+            }
+          },
+          "key": {
+            "start": {
+              "line": 34,
+              "column": 7,
+              "char_offset": 1108,
+              "byte_offset": 1108
+            },
+            "end": {
+              "line": 34,
+              "column": 23,
+              "char_offset": 1124,
+              "byte_offset": 1124
+            }
+          }
+        },
+        "type": "number"
+      },
+      "right": {
+        "pointer": "/windows/1/notAfterBlock",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 35,
+              "column": 24,
+              "char_offset": 1159,
+              "byte_offset": 1159
+            },
+            "end": {
+              "line": 35,
+              "column": 32,
+              "char_offset": 1167,
+              "byte_offset": 1167
+            }
+          },
+          "key": {
+            "start": {
+              "line": 35,
+              "column": 7,
+              "char_offset": 1142,
+              "byte_offset": 1142
+            },
+            "end": {
+              "line": 35,
+              "column": 22,
+              "char_offset": 1157,
+              "byte_offset": 1157
+            }
+          }
+        },
+        "type": "number"
+      },
+      "plan_source": {
+        "file": "line-2/tools/field-relations/window.relations.json",
+        "present": true,
+        "value": {
+          "start": {
+            "line": 13,
+            "column": 5,
+            "char_offset": 269,
+            "byte_offset": 269
+          },
+          "end": {
+            "line": 17,
+            "column": 6,
+            "char_offset": 379,
+            "byte_offset": 379
+          }
+        }
+      },
+      "valid": true,
+      "status": "passed"
+    },
+    {
+      "index": 3,
+      "operator": "eq",
+      "left": {
+        "pointer": "/windows/1/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 33,
+              "column": 26,
+              "char_offset": 1032,
+              "byte_offset": 1032
+            },
+            "end": {
+              "line": 33,
+              "column": 94,
+              "char_offset": 1100,
+              "byte_offset": 1100
+            }
+          },
+          "key": {
+            "start": {
+              "line": 33,
+              "column": 7,
+              "char_offset": 1013,
+              "byte_offset": 1013
+            },
+            "end": {
+              "line": 33,
+              "column": 24,
+              "char_offset": 1030,
+              "byte_offset": 1030
+            }
+          }
+        },
+        "type": "string"
+      },
+      "right": {
+        "pointer": "/batch/items/1/policy/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 19,
+              "column": 30,
+              "char_offset": 640,
+              "byte_offset": 640
+            },
+            "end": {
+              "line": 19,
+              "column": 98,
+              "char_offset": 708,
+              "byte_offset": 708
+            }
+          },
+          "key": {
+            "start": {
+              "line": 19,
+              "column": 11,
+              "char_offset": 621,
+              "byte_offset": 621
+            },
+            "end": {
+              "line": 19,
+              "column": 28,
+              "char_offset": 638,
+              "byte_offset": 638
+            }
+          }
+        },
+        "type": "string"
+      },
+      "plan_source": {
+        "file": "line-2/tools/field-relations/window.relations.json",
+        "present": true,
+        "value": {
+          "start": {
+            "line": 18,
+            "column": 5,
+            "char_offset": 385,
+            "byte_offset": 385
+          },
+          "end": {
+            "line": 22,
+            "column": 6,
+            "char_offset": 509,
+            "byte_offset": 509
+          }
+        }
+      },
+      "valid": true,
+      "status": "passed"
+    },
+    {
+      "index": 4,
+      "operator": "ne",
+      "left": {
+        "pointer": "/windows/0/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 28,
+              "column": 26,
+              "char_offset": 858,
+              "byte_offset": 858
+            },
+            "end": {
+              "line": 28,
+              "column": 94,
+              "char_offset": 926,
+              "byte_offset": 926
+            }
+          },
+          "key": {
+            "start": {
+              "line": 28,
+              "column": 7,
+              "char_offset": 839,
+              "byte_offset": 839
+            },
+            "end": {
+              "line": 28,
+              "column": 24,
+              "char_offset": 856,
+              "byte_offset": 856
+            }
+          }
+        },
+        "type": "string"
+      },
+      "right": {
+        "pointer": "/windows/1/transactionHash",
+        "present": true,
+        "document_source": {
+          "file": "line-2/tools/field-relations/window-plan.json",
+          "present": true,
+          "value": {
+            "start": {
+              "line": 33,
+              "column": 26,
+              "char_offset": 1032,
+              "byte_offset": 1032
+            },
+            "end": {
+              "line": 33,
+              "column": 94,
+              "char_offset": 1100,
+              "byte_offset": 1100
+            }
+          },
+          "key": {
+            "start": {
+              "line": 33,
+              "column": 7,
+              "char_offset": 1013,
+              "byte_offset": 1013
+            },
+            "end": {
+              "line": 33,
+              "column": 24,
+              "char_offset": 1030,
+              "byte_offset": 1030
+            }
+          }
+        },
+        "type": "string"
+      },
+      "plan_source": {
+        "file": "line-2/tools/field-relations/window.relations.json",
+        "present": true,
+        "value": {
+          "start": {
+            "line": 23,
+            "column": 5,
+            "char_offset": 515,
+            "byte_offset": 515
+          },
+          "end": {
+            "line": 27,
+            "column": 6,
+            "char_offset": 628,
+            "byte_offset": 628
+          }
+        }
+      },
+      "valid": true,
+      "status": "passed"
+    }
+  ],
+  "failed_relations": 0,
+  "semantics": "scalar eq/ne preserve JSON types; numbers compare exact decimal tokens; ordering requires numbers; no coercion or truth claim"
+}

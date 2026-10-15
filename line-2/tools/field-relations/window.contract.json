@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "batch",
+    "windows"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "batch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "items"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "evidence",
+              "sha256",
+              "policy"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "evidence": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "policy": {
+                "type": "object",
+                "required": [
+                  "transactionHash",
+                  "minimumConfirmations",
+                  "requireFinalized"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "transactionHash": {
+                    "type": "string",
+                    "pattern": "^0x[0-9a-f]{64}$"
+                  },
+                  "minimumConfirmations": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "requireFinalized": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "windows": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "transactionHash",
+          "notBeforeBlock",
+          "notAfterBlock"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "transactionHash": {
+            "type": "string",
+            "pattern": "^0x[0-9a-f]{64}$"
+          },
+          "notBeforeBlock": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "notAfterBlock": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

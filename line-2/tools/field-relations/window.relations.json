@@ -1,0 +1,29 @@
+{
+  "relations": [
+    {
+      "left": "/windows/0/notBeforeBlock",
+      "op": "le",
+      "right": "/windows/0/notAfterBlock"
+    },
+    {
+      "left": "/windows/0/transactionHash",
+      "op": "eq",
+      "right": "/batch/items/0/policy/transactionHash"
+    },
+    {
+      "left": "/windows/1/notBeforeBlock",
+      "op": "le",
+      "right": "/windows/1/notAfterBlock"
+    },
+    {
+      "left": "/windows/1/transactionHash",
+      "op": "eq",
+      "right": "/batch/items/1/policy/transactionHash"
+    },
+    {
+      "left": "/windows/0/transactionHash",
+      "op": "ne",
+      "right": "/windows/1/transactionHash"
+    }
+  ]
+}

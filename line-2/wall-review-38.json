@@ -1,0 +1,61 @@
+{
+  "number": 38,
+  "ancestor_sha256": "87996a14fe0c7d89eb2e209ae735d9bd22c1d2e5ef5c916097d7f833bd400d2d",
+  "sha256": "24d084c4244f4bf842ea5bec6b0930e0a01efb00cd9bbdca192d08fdaa4d339c",
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v18.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3935692
+  },
+  "preview": {
+    "path": "dist/line-2/38.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74353
+  },
+  "addition_region": {
+    "x": 760,
+    "y": 210,
+    "width": 160,
+    "height": 70
+  },
+  "changed_pixels": 2175,
+  "unchanged_pixels": 1570341,
+  "outside_region_pixel_identical": true,
+  "dark_cracks_preserved": true,
+  "generation_tool": "mcp__image__generate_image",
+  "generation_model": "black-forest-labs/flux-schnell",
+  "draft_sha256": "f1eb48bfb4b4ccc4aa59b06a8e0d4338efda31f109c5c73dbcd7fd29ce100bfe",
+  "generated_dimensions": [
+    1024,
+    1024
+  ],
+  "draft_retained": false,
+  "generation_prompt": "An isolated prehistoric cave painting motif: two small red ochre oval stones joined by a single sagging charcoal-black cord, one stone slightly higher than the other. The stones and cord fill the middle 70 percent of the square. Flat earth pigment strokes only, hand made uneven burnt-stick charcoal and thumb-daubed red ochre with worn gaps, on light warm tan rough cave rock, Lascaux style. This motif represents comparing two values while keeping both ends visible. No hands, no frogs, no people, no letters, no numbers, no mathematical signs, no captions, no logos, no borders, no watermarks, no photographs, no 3D.",
+  "compositing": "Only flattened charcoal and ochre pigment sampled from the installed image tool motif; generated stone and shading discarded. No ancestor painting lies in this patch.",
+  "visual_review": "Inspected the complete final PNG and decoded 512-pixel JPEG. Two ochre stones and charcoal cord occupy previously vacant rock above the upper-right Pepe. All ancestral figures remain; wide mouth and heavy-lidded eyes retained. No new writing, hands, watermark, border or forbidden symbol observed. Inherited exact hand digit counts remain unresolved; realistic ancestral rock retained for preservation.",
+  "unmet_visual_requirements": [
+    "Inherited hands have unresolved digit detail; exact five-digit count cannot be certified. No hands or handprints added."
+  ],
+  "image_info_checks": {
+    "png": {
+      "format": "png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3935692
+    },
+    "jpeg": {
+      "format": "jpg",
+      "width": 512,
+      "height": 512,
+      "bytes": 74353
+    }
+  }
+}

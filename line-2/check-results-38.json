@@ -1,0 +1,46 @@
+{
+  "delivery_valid": true,
+  "number": 38,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "wall_sha256": "24d084c4244f4bf842ea5bec6b0930e0a01efb00cd9bbdca192d08fdaa4d339c",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_bytes": 74353,
+  "jpeg_format": "JPEG",
+  "record_image_matches": true,
+  "provenance_matches": true,
+  "outputs_untracked": true,
+  "new_source_file_size_limit": 100000,
+  "checks_run_before_delivery": [
+    {
+      "command": "python3 -B line-2/tools/field-relations/test_check.py",
+      "exit_code": 0,
+      "tests": 21
+    },
+    {
+      "command": "python3 -B line-2/tools/jsonl-unique/test_check.py",
+      "exit_code": 0,
+      "tests": 19
+    },
+    {
+      "command": "python3 -B line-2/tools/source-locator/test_locate.py",
+      "exit_code": 0,
+      "tests": 16
+    }
+  ],
+  "demo_exit_codes": {
+    "window-plan.json": 0,
+    "reversed-window.json": 1
+  },
+  "unmet_visual_requirements": [
+    "Inherited hands have unresolved digit detail; exact five-digit count cannot be certified. No hands or handprints added."
+  ]
+}
