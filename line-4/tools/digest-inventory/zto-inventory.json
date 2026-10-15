@@ -1,0 +1,18 @@
+{
+  "requests": [
+    {
+      "id": "historical-zto",
+      "path": "zto-payment.json",
+      "expect": "0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774"
+    },
+    {
+      "id": "equivalent-spelling",
+      "path": "zto-equivalent.json",
+      "expect": "0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774"
+    },
+    {
+      "id": "one-unit-more",
+      "path": "zto-one-unit-change.json"
+    }
+  ]
+}

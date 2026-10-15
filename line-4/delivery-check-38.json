@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "wall": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5e266662f3f4e2aa79e8525776b129743c65e46f314f536d4d05efb3ca8efd62"
+  },
+  "preview": {
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 78549
+  },
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": true,
+  "provenanceVerified": true,
+  "outputFilesUntracked": true,
+  "unmetVisualRequirements": [],
+  "limits": "Local structural validation and recorded visual inspection, not independent certification."
+}

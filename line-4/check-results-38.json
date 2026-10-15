@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/digest-inventory",
+        "-v"
+      ],
+      "cwd": "workspace",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_all_pins_and_case_normalization (test_inventory.InventoryTests.test_all_pins_and_case_normalization) ... ok\ntest_cli_success_mismatch_and_invalid_no_success_output (test_inventory.InventoryTests.test_cli_success_mismatch_and_invalid_no_success_output) ... ok\ntest_different_chain_separates_groups (test_inventory.InventoryTests.test_different_chain_separates_groups) ... ok\ntest_each_entry_captured_once_and_inputs_unchanged (test_inventory.InventoryTests.test_each_entry_captured_once_and_inputs_unchanged) ... ok\ntest_equivalent_encoding_and_one_unit_change (test_inventory.InventoryTests.test_equivalent_encoding_and_one_unit_change) ... ok\ntest_manifest_rejected_before_any_request_read (test_inventory.InventoryTests.test_manifest_rejected_before_any_request_read) ... ok\ntest_mismatch_retains_complete_inventory (test_inventory.InventoryTests.test_mismatch_retains_complete_inventory) ... ok\ntest_missing_input_aborts (test_inventory.InventoryTests.test_missing_input_aborts) ... ok\ntest_no_pins_is_explicit (test_inventory.InventoryTests.test_no_pins_is_explicit) ... ok\ntest_order_is_manifest_order (test_inventory.InventoryTests.test_order_is_manifest_order) ... ok\ntest_output_bound_fails_closed (test_inventory.InventoryTests.test_output_bound_fails_closed) ... ok\ntest_path_refusal_without_opening_outside_workspace (test_inventory.InventoryTests.test_path_refusal_without_opening_outside_workspace) ... ok\ntest_unselected_invalid_entry_cannot_be_hidden (test_inventory.InventoryTests.test_unselected_invalid_entry_cannot_be_hidden) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.286s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/typed-digest",
+        "-v"
+      ],
+      "cwd": "workspace",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_bad_unicode_and_bad_json (test_bounded_input.BoundedInputTests.test_bad_unicode_and_bad_json) ... ok\ntest_brackets_and_escaped_quotes_in_strings_do_not_count (test_bounded_input.BoundedInputTests.test_brackets_and_escaped_quotes_in_strings_do_not_count) ... ok\ntest_byte_limit_at_boundary (test_bounded_input.BoundedInputTests.test_byte_limit_at_boundary) ... ok\ntest_cli_match_and_mismatch (test_bounded_input.BoundedInputTests.test_cli_match_and_mismatch) ... ok\ntest_cli_rejection_no_traceback_or_success_output (test_bounded_input.BoundedInputTests.test_cli_rejection_no_traceback_or_success_output) ... ok\ntest_cyclic_api_values_and_nonstring_keys_rejected (test_bounded_input.BoundedInputTests.test_cyclic_api_values_and_nonstring_keys_rejected) ... ok\ntest_depth_scanned_before_decoder (test_bounded_input.BoundedInputTests.test_depth_scanned_before_decoder) ... ok\ntest_duplicate_keys_at_any_depth (test_bounded_input.BoundedInputTests.test_duplicate_keys_at_any_depth) ... ok\ntest_example_unchanged_and_absolute_path_supported (test_bounded_input.BoundedInputTests.test_example_unchanged_and_absolute_path_supported) ... ok\ntest_fifo_refused_without_blocking (test_bounded_input.BoundedInputTests.test_fifo_refused_without_blocking) ... ok\ntest_file_and_directory_symlinks_rejected (test_bounded_input.BoundedInputTests.test_file_and_directory_symlinks_rejected) ... ok\ntest_hidden_paths_rejected (test_bounded_input.BoundedInputTests.test_hidden_paths_rejected) ... ok\ntest_node_and_api_text_bounds (test_bounded_input.BoundedInputTests.test_node_and_api_text_bounds) ... ok\ntest_nonfinite_float_and_exponent_rejected (test_bounded_input.BoundedInputTests.test_nonfinite_float_and_exponent_rejected) ... ok\ntest_outside_and_parent_paths_rejected_without_opening (test_bounded_input.BoundedInputTests.test_outside_and_parent_paths_rejected_without_opening) ... ok\ntest_oversize_file_rejected_before_read (test_bounded_input.BoundedInputTests.test_oversize_file_rejected_before_read) ... ok\ntest_bytes_address_boolean_encoding (test_bounded_input.EncodingBoundaryTests.test_bytes_address_boolean_encoding) ... ok\ntest_empty_dynamic_and_nested_fixed_arrays (test_bounded_input.EncodingBoundaryTests.test_empty_dynamic_and_nested_fixed_arrays) ... ok\ntest_encoder_owns_schema_snapshot_when_caching (test_bounded_input.EncodingBoundaryTests.test_encoder_owns_schema_snapshot_when_caching) ... ok\ntest_invalid_types_and_deep_array_types_rejected (test_bounded_input.EncodingBoundaryTests.test_invalid_types_and_deep_array_types_rejected) ... ok\ntest_recursive_type_with_finite_values (test_bounded_input.EncodingBoundaryTests.test_recursive_type_with_finite_values) ... ok\ntest_signed_and_unsigned_limits_and_sign_extension (test_bounded_input.EncodingBoundaryTests.test_signed_and_unsigned_limits_and_sign_extension) ... ok\ntest_type_field_order_changes_digest (test_bounded_input.EncodingBoundaryTests.test_type_field_order_changes_digest) ... ok\ntest_types_and_fields_bounded (test_bounded_input.EncodingBoundaryTests.test_types_and_fields_bounded) ... ok\ntest_dependency_order_and_arrays (test_typed_digest.DigestTests.test_dependency_order_and_arrays) ... ok\ntest_ether_mail_vector (test_typed_digest.DigestTests.test_ether_mail_vector) ... ok\ntest_keccak_vectors (test_typed_digest.DigestTests.test_keccak_vectors) ... ok\ntest_rejects_ambiguous_or_invalid_values (test_typed_digest.DigestTests.test_rejects_ambiguous_or_invalid_values) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.515s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "digest_inventory.py",
+        "zto-inventory.json"
+      ],
+      "cwd": "line-4/tools/digest-inventory",
+      "exit": 0,
+      "stdout": "{\n  \"version\": 1,\n  \"complete\": true,\n  \"items\": [\n    {\n      \"id\": \"historical-zto\",\n      \"path\": \"zto-payment.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n      \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"matchesExpectedDigest\": true\n    },\n    {\n      \"id\": \"equivalent-spelling\",\n      \"path\": \"zto-equivalent.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n      \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"matchesExpectedDigest\": true\n    },\n    {\n      \"id\": \"one-unit-more\",\n      \"path\": \"zto-one-unit-change.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0x9dfcb2ac9dfa777ddd2730468c4887ae291b291aa6edae85f85291cf34d5a92c\",\n      \"digest\": \"0x79447ddb9c4bb1eafebf3333948dda1358cbf12db05f411e98f64b2ea1d64621\",\n      \"matchesExpectedDigest\": null\n    }\n  ],\n  \"allSuppliedExpectationsMatch\": true,\n  \"allEntriesPinned\": false,\n  \"repeatedDigests\": [\n    {\n      \"hash\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"ids\": [\n        \"historical-zto\",\n        \"equivalent-spelling\"\n      ]\n    }\n  ],\n  \"sharedDomainSeparators\": [\n    {\n      \"hash\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"ids\": [\n        \"historical-zto\",\n        \"equivalent-spelling\",\n        \"one-unit-more\"\n      ]\n    }\n  ],\n  \"meaning\": \"Hash equality groups encodings, not source JSON identity, consent or replay protection.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-v"
+      ],
+      "cwd": "test/scratch/digest-inventory-38",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_all_pins_and_case_normalization (test_inventory.InventoryTests.test_all_pins_and_case_normalization) ... ok\ntest_cli_success_mismatch_and_invalid_no_success_output (test_inventory.InventoryTests.test_cli_success_mismatch_and_invalid_no_success_output) ... ok\ntest_different_chain_separates_groups (test_inventory.InventoryTests.test_different_chain_separates_groups) ... ok\ntest_each_entry_captured_once_and_inputs_unchanged (test_inventory.InventoryTests.test_each_entry_captured_once_and_inputs_unchanged) ... ok\ntest_equivalent_encoding_and_one_unit_change (test_inventory.InventoryTests.test_equivalent_encoding_and_one_unit_change) ... ok\ntest_manifest_rejected_before_any_request_read (test_inventory.InventoryTests.test_manifest_rejected_before_any_request_read) ... ok\ntest_mismatch_retains_complete_inventory (test_inventory.InventoryTests.test_mismatch_retains_complete_inventory) ... ok\ntest_missing_input_aborts (test_inventory.InventoryTests.test_missing_input_aborts) ... ok\ntest_no_pins_is_explicit (test_inventory.InventoryTests.test_no_pins_is_explicit) ... ok\ntest_order_is_manifest_order (test_inventory.InventoryTests.test_order_is_manifest_order) ... ok\ntest_output_bound_fails_closed (test_inventory.InventoryTests.test_output_bound_fails_closed) ... ok\ntest_path_refusal_without_opening_outside_workspace (test_inventory.InventoryTests.test_path_refusal_without_opening_outside_workspace) ... ok\ntest_unselected_invalid_entry_cannot_be_hidden (test_inventory.InventoryTests.test_unselected_invalid_entry_cannot_be_hidden) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.283s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "digest_inventory.py",
+        "zto-inventory.json"
+      ],
+      "cwd": "test/scratch/digest-inventory-38",
+      "exit": 0,
+      "stdout": "{\n  \"version\": 1,\n  \"complete\": true,\n  \"items\": [\n    {\n      \"id\": \"historical-zto\",\n      \"path\": \"zto-payment.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n      \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"matchesExpectedDigest\": true\n    },\n    {\n      \"id\": \"equivalent-spelling\",\n      \"path\": \"zto-equivalent.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n      \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"matchesExpectedDigest\": true\n    },\n    {\n      \"id\": \"one-unit-more\",\n      \"path\": \"zto-one-unit-change.json\",\n      \"primaryType\": \"PaymentEvidence\",\n      \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"messageHash\": \"0x9dfcb2ac9dfa777ddd2730468c4887ae291b291aa6edae85f85291cf34d5a92c\",\n      \"digest\": \"0x79447ddb9c4bb1eafebf3333948dda1358cbf12db05f411e98f64b2ea1d64621\",\n      \"matchesExpectedDigest\": null\n    }\n  ],\n  \"allSuppliedExpectationsMatch\": true,\n  \"allEntriesPinned\": false,\n  \"repeatedDigests\": [\n    {\n      \"hash\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n      \"ids\": [\n        \"historical-zto\",\n        \"equivalent-spelling\"\n      ]\n    }\n  ],\n  \"sharedDomainSeparators\": [\n    {\n      \"hash\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n      \"ids\": [\n        \"historical-zto\",\n        \"equivalent-spelling\",\n        \"one-unit-more\"\n      ]\n    }\n  ],\n  \"meaning\": \"Hash equality groups encodings, not source JSON identity, consent or replay protection.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "allPassed": true
+}

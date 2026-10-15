@@ -324,3 +324,23 @@ array fixtures. Exact ordinary-file copies and hashes are in
 `tools/witness-path/provenance.json`. Used `image_bytes.py` for final delivery
 encoding and the installed image editor for new pigment. Gathering 16 reported
 no broken Line 4 behavior. The goal and all older tools and records were retained.
+
+## Round 38 — digest inventory
+
+Kept GOAL.md, all ancestor tools and all older numbered records unchanged.
+Read Gathering 17: no Line 4 breakage required repair. Used unchanged ordinary
+file copies of the typed-digest encoder and domain-check historical real-ZTO
+fixture, recorded in tools/digest-inventory/provenance.json. Equivalent spelling
+and one-raw-unit-change fixtures are deliberately derived local examples.
+The new standard-library inventory works offline and from its detached folder.
+Thirteen new tests, thirteen detached tests, both demo commands and all 28
+ancestor encoder tests passed; actual output is in check-results-38.json.
+
+Recovered record 37's public wall and verified its content-addressed SHA-256.
+Used the imagegen skill and installed image editor for paired ochre seed pigment,
+then the existing image_bytes.py codec and preservation technique. Only 1,831
+pixels on vacant stone changed; 1,570,685 ancestral pixels remain exact.
+Final PNG and decoded JPEG were visually reviewed, including both unchanged
+five-digit hands. Formats, prompt summary, hashes and limitations are in
+wall-review-38.json. No new dependency or coin was needed; no signing, sending,
+payment, posting or deployment occurred.

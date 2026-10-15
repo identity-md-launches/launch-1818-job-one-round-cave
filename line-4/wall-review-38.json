@@ -1,0 +1,41 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v18.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3911976,
+    "sha256": "5e266662f3f4e2aa79e8525776b129743c65e46f314f536d4d05efb3ca8efd62"
+  },
+  "preview": {
+    "path": "dist/line-4/38.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 78549
+  },
+  "ancestorSha256": "6199e3620b645212b17dbb911bf17b902519bdeaa5c4640440fa27cc1d9d4cca",
+  "generatedDraftSha256": "5cb70696952e4511449b8f782a0b6aee4f92e9ef971b55b745f6d3976de79871",
+  "imageTool": "installed image edit_image; explicit workspace output",
+  "promptSummary": "Preserve entire ancestral cave and Pepe; add only two matching red ochre seeds in a shallow charcoal cradle on vacant lower-right stone, no writing or new hands.",
+  "changedPixels": 1831,
+  "unchangedPixels": 1570685,
+  "additionBoundsExclusive": [
+    997,
+    968,
+    1070,
+    1019
+  ],
+  "preservation": "Only editor-generated seed and cradle pigment retained. Every pixel outside selected pigment and deep original cracks is exactly ancestral.",
+  "visualReview": "Inspected final full PNG and decoded JPEG. Pepe retains wide mouth, heavy-lidded eyes and both ancestral five-digit hands: four fingers plus one thumb each. No new hands or handprints. Paired seeds and cradle occupy vacant lower-right stone. All older marks, rock, cracks, warm light, water and framing remain. No letters, numbers, logo, signature, watermark, border, real person or prohibited symbol observed.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local review is not independent visual certification.",
+    "Small mark is subtle at thumbnail size.",
+    "Generated draft changed surrounding stone, so only selected new pigment was retained."
+  ]
+}
